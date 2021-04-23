@@ -418,7 +418,7 @@ export const complementario = [
     texto:
       'DPS. (2020). Lineamientos estrategia de alertas para la permanencia escolar y protección integral de niños, niñas y adolescente de Familias en Acción. Prosperidad Social.',
     tipo: 'Documento PDF',
-    descarga: '/downloads/Anexo_2_Lineamientos_estrategia_de_alertas',
+    descarga: '/downloads/Anexo_2_Lineamientos_estrategia_de_alertas.pdf',
   },
   {
     texto:
