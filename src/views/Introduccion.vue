@@ -73,7 +73,7 @@
         .col-lg-8
           p Teniendo en cuenta lo anterior, en el presente componente formativo se profundiza en estos conceptos, de tal manera que el aprendiz al finalizar el estudio, tendrá la posibilidad de comprender el impacto que la pobreza tiene en la sociedad colombiana, las iniciativas adelantadas desde el sector público para mitigarlas y cómo operan dichas iniciativas en favor de la protección de los niños, niñas y adolescentes, garantizando las condiciones que permitan el máximo goce de sus derechos y desarrollo pleno de sus capacidades.
 
-    p.mb-5 Esquema del documento.
+    .h4.mb-5.text-center Esquema del documento
 
     img.img-a(src="@/assets/curso/tema_1/img_7.png")
 

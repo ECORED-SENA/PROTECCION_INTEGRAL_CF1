@@ -25,12 +25,12 @@
 
     p.mb-5 La siguiente figura describe el desarrollo concepto de pobreza.
 
-
+    .h5.mb-5.text-center Concepto de pobreza
     figure.mb-5
       img.img-a(src='@/assets/curso/tema_1/img_8.png', alt='Texto que describa la imagen')
       figcaption Nota: con base en Barzán, Quintero y Hernández (2011).
 
-    TabsC.mb-5
+    TabsC.tarjeta.tarjeta--azul.mb-5
       .py-3.py-md-4(titulo="Años 40")
         .row
           .col-md-6
@@ -55,7 +55,7 @@
         .row
           .col-md-6
             figure
-              img.img-a(src='@/assets/curso/tema_1/img_32.png', alt='Texto que describa la imagen')
+              img.img-a(src='@/assets/curso/tema_1/img_33.png', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
             .h4 Dos últimas décadas del siglo XX
             p El enfoque de necesidades básicas continua consolidándose, ampliando sus posibilidades para caracterizar la pobreza con información sobre el desarrollo de las “capacidades” humanas que no se ven reflejadas en el ingreso, lo cual ha permitido en diferentes lugares su oficialización en los marcos normativos, tal como sucedió con el índice de Necesidades Básicas Insatisfechas (NBI), que se extendió en Latinoamérica debido a las contribuciones de la Comisión Económica Para América Latina y el Caribe (CEPAL), (Barzán Ojeda, Quintero Soto, & Hernández Espitia, 2011).
@@ -66,7 +66,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img.img-a(src='@/assets/curso/tema_1/img_33.png', alt='Texto que describa la imagen')
+              img.img-a(src='@/assets/curso/tema_1/img_34.png', alt='Texto que describa la imagen')
           .col-md-6
             .h4 Principios del nuevo milenio
             p El estudio multidimensional de la pobreza ya se encuentra mucho más arraigado, contando con iniciativas como los Objetivos de Desarrollo del Milenio (ODM), firmada por 189 países, y la presentación del índice de Pobreza Multidimensional (IPM), el cual fue adoptado como metodología de medición de pobreza en varios países.  
@@ -98,9 +98,11 @@
 
     p.mb-5 A continuación, se presentan cada una de estas metodologías, así como su estado para el año 2019:
 
-    p.mb-5 Modelos de medición de pobreza en Colombia.
+    .h5.text-center.mb-5 Modelos de medición de pobreza en Colombia.
 
-    img.mb-5.img-a(src="@/assets/curso/tema_1/img_9.png")
+    figure.mb-5
+      img.img-a(src='@/assets/curso/tema_1/img_9.png', alt='Nota: con base en Datos Encuesta de Calidad de Vida - ECV, 2018-2019 (DANE, 2020).')
+      figcaption.mt-3 Nota: con base en Barzán, Quintero y Hernández (2011).
 
     .titulo-segundo
       #t_1_1.h4 1.1	Pobreza monetaria
@@ -135,14 +137,17 @@
 
     .row.mb-5
       .col-lg-6
-        p.mb-5 Incidencia pobreza monetaria en Colombia 2018 - 2019.
-        img.mb-3.img-a(src="@/assets/curso/tema_1/img_12.png")
-        p Nota: DANE (2020). Cálculos con base en la Gran Encuesta Integrada de 
-        | Hogares 2018-2019.
+        .h5.text-center.mb-5 Incidencia pobreza monetaria en Colombia 2018 - 2019.
+        figure
+          img.img-a(src='@/assets/curso/tema_1/img_12.png', alt='Nota: con base en Datos Encuesta de Calidad de Vida - ECV, 2018-2019 (DANE, 2020).')
+          figcaption.mt-2 Nota: DANE (2020). Cálculos con base en la Gran Encuesta Integrada de 
+            br 
+            | Hogares 2018-2019.
       .col-lg-6
-        p.mb-5 Distribución del ingreso per cápita de la unidad de gasto y líneas de pobreza monetaria y pobreza monetaria extrema.
-        img.mb-3.img-a(src="@/assets/curso/tema_1/img_13.png")
-        p Nota: DANE (2020). Cálculos con base en la Gran Encuesta Integrada de Hogares.
+        .h5.mb-5 Distribución del ingreso per cápita de la unidad de gasto y líneas de pobreza monetaria y pobreza monetaria extrema.
+        figure
+          img.img-a(src='@/assets/curso/tema_1/img_13.png', alt='Nota: con base en Datos Encuesta de Calidad de Vida - ECV, 2018-2019 (DANE, 2020).')
+          figcaption.mt-3 Nota: DANE (2020). Cálculos con base en la Gran Encuesta Integrada de Hogares.
 
 
     .titulo-segundo
@@ -201,9 +206,11 @@
                 .h5.mb-3 5. Condiciones de la vivienda
                 p Contemplar las condiciones de la vivienda responde a que el acceso a los servicios públicos domiciliarios permite un pleno desarrollo de las actividades del hogar y mejora el bienestar de los individuos (DANE, 2014). 
 
-    p.mb-5 Pobreza multidimensional, dimensiones e indicadores.
+    .h5.text-center.mb-3 Pobreza multidimensional, dimensiones e indicadores.
 
-    img.mb-5.img-a(src="@/assets/curso/tema_1/img_19.png")
+    figure.mb-5
+      img.img-a(src='@/assets/curso/tema_1/img_19.png', alt='Nota: con base en Datos Encuesta de Calidad de Vida - ECV, 2018-2019 (DANE, 2020).')
+      figcaption.mt-3 Nota: con base en Barzán, Quintero y Hernández (2011).
 
     p.mb-5 Para la medición, cada una de estas dimensiones cuenta con un el mismo valor de 0,2, lo que sumados da un total de 1,0. En cada dimensión hay un grupo de indicadores (15 en total), los cuales cuentan con una ponderación diferente, pero sumados en cada una de sus dimensiones da el valor de 0,2. Un hogar es considerado pobre multidimensional cuando presenta al menos el 0,33 (33%) de privaciones en los 15 indicadores y cinco (5) dimensiones que componen el ejercicio de medición (DNP - Conpes, 2012).
 
@@ -232,11 +239,11 @@
                 span Descargar
                 i.fas.fa-file-download
 
-    p.mb-5 Pobreza multidimensional en Colombia (2019).
+    .h5.text-center.mb-3 Pobreza multidimensional en Colombia (2019).
 
     figure.mb-5
       img.img-a(src='@/assets/curso/tema_1/img_23.png', alt='Nota: con base en Datos Encuesta de Calidad de Vida - ECV, 2018-2019 (DANE, 2020).')
-      figcaption Nota: con base en Barzán, Quintero y Hernández (2011).
+      figcaption.mt-3 Nota: con base en Barzán, Quintero y Hernández (2011).
 
     p.mb-5 Estos datos permiten identificar y evaluar las acciones que en materia de políticas públicas ya se han adelantado, se están adelantando o se deberían adelantar con el fin de garantizar la mejora de la calidad de vida de los hogares más vulnerables y un ambiente que permita un adecuado desarrollo humano.
 
@@ -275,11 +282,11 @@
       
     .h4.mb-5 Revisar con detenimiento la siguiente figura donde se presentan los cuadrantes de pobreza.
 
-    p.mb-5 Cuadrantes de pobreza.
+    .h5.text-center.mb-5 Cuadrantes de pobreza.
 
     figure.mb-5
       img.mb-2.img-a(src='@/assets/curso/tema_1/img_25.png', alt='Nota: con base en Datos Encuesta de Calidad de Vida - ECV, 2018-2019 (DANE, 2020).')
-      figcaption Nota: con base en Prosperidad Social (2020).
+      figcaption.mt-3 Nota: con base en Prosperidad Social (2020).
 
     p.mb-3 Para su desarrollo, la Ruta establece como punto de partida la Estrategia Red Unidos, en la cual los hogares son caracterizados para identificar los factores que determinan su situación de pobreza y posteriormente podrán ser enrutados a los diferentes programas con los que cuenta Prosperidad Social, de acuerdo con los criterios de focalización y presupuestales de cada uno de ellos. Esto permite que los hogares experimenten un proceso de vinculación social y productiva en donde puedan garantizar el acceso prioritario a programas de educación, salud y complementarios que les permita trabajar sus habilidades para la vida y oportunidades productivas; lo cual, acompañado a la debida infraestructura social y un incentivo al consumo, hará que los hogares tengan las herramientas para salir de su situación de pobreza. Finalmente, se lleva a cabo la evaluación del recorrido realizado, los programas en los que ha participado y los resultados obtenidos, con el fin de vincular el hogar a la oferta pública restante que les permita continuar con su proceso de manera sostenida.
 
@@ -399,7 +406,7 @@
                   img.img-a(src="@/assets/curso/tema_1/img_24.png").img-fluid
               .list__txt
                 p.m-top #[strong Emprendimiento y proyectos productivos inclusivos:] acompañamiento para la formulación e implementación de planes de negocio para la creación de unidades productivas, promoción de instrumentos financieros flexibles, acompañamiento técnico para la sostenibilidad de las unidades productivas y provisión de infraestructura productiva.  
-    p.mb-5 Ruta de Superación de Pobreza - Prosperidad Social.       
+    .h5.text-center.mb-3 Ruta de Superación de Pobreza - Prosperidad Social.       
 
     figure.mb-5
       img.img-a(src='@/assets/curso/tema_1/img_30.png', alt='Nota: con base en Datos Encuesta de Calidad de Vida - ECV, 2018-2019 (DANE, 2020).')

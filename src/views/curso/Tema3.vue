@@ -169,6 +169,8 @@
           .list__txt
             p.m-top Mesa de infancia y adolescencia y fortalecimiento familiar.
 
+    .h5.text-center.mb-3 Ruta estrategia de alertas para la permanencia escolar y protección integral de niños, niñas y adolescentes
+
     .tabla-a.mb-5 
       table
         caption Nota: con base en Prosperidad Social (2020)

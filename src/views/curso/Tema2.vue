@@ -110,11 +110,11 @@
 
     .h4.mb-5 El siguiente diagrama determina los cambios que se pueden producir en la población dada la intervención que reciben los beneficiarios. Teoría de cambio.
 
-    p.mb-5 Cambios en población beneficiaria
+    .h5.text-center.mb-3 Cambios en población beneficiaria
 
     figure.mb-5
       img.img-a(src='@/assets/curso/tema_2/img_6.png', alt='Nota: con base en Datos Encuesta de Calidad de Vida - ECV, 2018-2019 (DANE, 2020).')
-      figcaption Nota: con base en Prosperidad Social (2020)
+      figcaption.mt-3 Nota: con base en Prosperidad Social (2020)
 
     p.mb-3 Son participantes del programa aquellas familias/hogares en condiciones de pobreza y pobreza extrema, dentro del contexto de las metodologías vistas anteriormente y focalizadas de acuerdo con cuatro fuentes de información: Sisbén III, Estrategia Red Unidos, Registro único de población víctima y listado censal indígena. Posteriormente se procede a la inscripción, la cual formaliza la vinculación voluntaria de los hogares al programa por medio de la captura de información en el Sistema de Información de Familias en Acción (SIFA) y el establecimiento de los compromisos para el cumplimiento de las corresponsabilidades que garanticen el incentivo económico y su permanencia en el programa.
 
@@ -274,9 +274,11 @@
 
     p.mb-5 Cuando el retiro se da por causales asociadas al control de calidad de la información, cumplimiento de metas y algunas de procesos operativos, se surte un proceso de suspensión preventiva de carácter temporal, mientras se culminan las etapas del debido proceso administrativo, mediante las cuales se reportan elementos por parte de los participantes y se decide sobre su continuidad o retiro definitivo del programa (DPS, 2019).
 
-    p.mb-3 Desarrollo operativo Familias en Acción.
+    .h5.text-center.mb-3 Desarrollo operativo Familias en Acción.
 
-    img.mb-5.img-a(src="@/assets/curso/tema_2/img_22.png").img-fluid
+    figure.mb-5
+      img.img-a(src='@/assets/curso/tema_2/img_22.png', alt='Nota: con base en Datos Encuesta de Calidad de Vida - ECV, 2018-2019 (DANE, 2020).')
+      figcaption.mt-3 Nota: con base en Prosperidad Social (2020).
 
     p.mb-5 El componente de bienestar comunitario busca fortalecer las capacidades individuales y colectivas de las familias participantes en el programa Familias en Acción; para ello, se desarrollan acciones a través de dos líneas de acción: participación social y articulación institucional. 
 
@@ -301,12 +303,12 @@
 
     p.mb-5 En las actividades del componente se incorporan, de manera transversal, elementos del enfoque diferencial y acciones para el fortalecimiento de las competencias ciudadanas y comunitarias de los participantes y sus familias.
 
-    p.mb-3 Desarrollo operativo Familias en Acción.
+    .h5.text-center.mb-5 Desarrollo operativo Familias en Acción.
 
 
     figure.mb-5
       img.img-a(src='@/assets/curso/tema_2/img_23.png', alt='Nota: con base en Datos Encuesta de Calidad de Vida - ECV, 2018-2019 (DANE, 2020).')
-      figcaption Nota: con base en Prosperidad Social (2020).
+      figcaption.mt-3 Nota: con base en Prosperidad Social (2020).
 
     p.mb-5 A partir de la ejecución del componente de bienestar comunitario se busca promover:
 
@@ -353,10 +355,13 @@
 
     p.mb-5 En conclusión:
 
-    .row.mb-5
-      .col-lg-10.mb-5.mb-lg-0
-        .bloque-texto-b.p-4.mb-3
-          .bloque-texto-b__texto.h3.mb-0 Familias en Acción es un programa de transferencias monetarias condicionadas cuyo centro de atención son las familias, principalmente con niños, niñas y adolescentes, que proporciona las herramientas para solventar su situación actual de pobreza y desarrollar las capacidades que le permitirán mantenerse por fuera de esta condición de manera sostenida, aportando a la protección y restitución de derechos de los niños, niñas y adolescentes, que no cuentan con las condiciones para poder ejercerlos de manera plena, al mismo tiempo que se generan las condiciones para que tengan trayectorias escolares extensas y robustas garantizando que puedan adaptarse a una sociedad caracterizada por el cambio permanente.
+    .cajon--azul.p-4.mb-5
+      .row.align-items-center
+        .col-lg-4
+          img.img-a(src="@/assets/curso/tema_2/img_32.png")
+        .col-lg-8
+          p Familias en Acción es un programa de transferencias monetarias condicionadas cuyo centro de atención son las familias, principalmente con niños, niñas y adolescentes, que proporciona las herramientas para solventar su situación actual de pobreza y desarrollar las capacidades que le permitirán mantenerse por fuera de esta condición de manera sostenida, aportando a la protección y restitución de derechos de los niños, niñas y adolescentes, que no cuentan con las condiciones para poder ejercerlos de manera plena, al mismo tiempo que se generan las condiciones para que tengan trayectorias escolares extensas y robustas garantizando que puedan adaptarse a una sociedad caracterizada por el cambio permanente.
+
 
     .titulo-segundo
       #t_2_2.h4 2.2	Jóvenes en Acción
