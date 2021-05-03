@@ -11,16 +11,16 @@
     .bloque-texto-a.p-4.p-md-5.mb-5
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
-          .h3.mb-0 Los programas de transferencias monetarias son: 
+          img.img-a(src="@/assets/curso/tema_2/img_1.png")
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            .row
-              .col-lg-8
-                p uno de los pilares sobre los que se sustenta la Ruta para la Superación de la Pobreza, tal como se indica en la primera línea de acción, ya que están diseñados como mecanismos para combatir la pobreza monetaria por medio del incremento de los ingresos que presentan los hogares que padecen dicha situación, al mismo tiempo que busca garantizar para los niños, niñas y adolescentes el derecho a la salud y la educación hacia la generación de oportunidades y de capital humano para el fortalecimiento de capacidades, esto con miras a superar la transmisión intergeneracional de la pobreza. 
-              .col-lg-4
-                img.img-a(src="@/assets/curso/tema_2/img_1.png")
+            p Los programas de transferencias monetarias son uno de los pilares sobre los que se sustenta la Ruta para la Superación de la Pobreza, tal como se indica en la primera línea de acción, ya que están diseñados como mecanismos para combatir la pobreza monetaria por medio del incremento de los ingresos que presentan los hogares que padecen dicha situación, al mismo tiempo que busca garantizar para los niños, niñas y adolescentes el derecho a la salud y la educación hacia la generación de oportunidades y de capital humano para el fortalecimiento de capacidades, esto con miras a superar la transmisión intergeneracional de la pobreza.  
+                
 
-    p.mb-5 Estas pueden tener una naturaleza condicionada o no dependiendo el propósito de la iniciativa en la que se desarrollan. Por ejemplo, cuando la intención es generar un ingreso que les permita solventar una situación de pobreza monetaria, no siempre es necesaria la existencia de un condicionante para la entrega del incentivo económico , pero si, adicionalmente, el propósito de las iniciativas incluye elementos para el favorecimiento del desarrollo humano, las transferencias pueden incluir un condicionante que permita trabajar en aspectos tanto de la pobreza monetaria como de la pobreza multidimensional.
+    p.mb-3 Estas pueden tener una naturaleza condicionada o no dependiendo el propósito de la iniciativa en la que se desarrollan. Por ejemplo, cuando la intención es generar un ingreso que les permita solventar una situación de pobreza monetaria, no siempre es necesaria la existencia de un condicionante para la entrega del incentivo económicop#[sup 7] , pero si, adicionalmente, el propósito de las iniciativas incluye elementos para el favorecimiento del desarrollo humano, las transferencias pueden incluir un condicionante que permita trabajar en aspectos tanto de la pobreza monetaria como de la pobreza multidimensional.
+
+    .subref.mb-5
+      p #[sup 7] Son medidas de carácter transitorio, flexibles y puntuales que ayuden a mitigar los efectos de choques a la generación de ingresos ante desastres naturales o emergencias de carácter humanitario. En la actualidad, una de las más renombradas es la devolución del IVA, así como la entrega de incentivos de Familias en Acción y Jóvenes en Acción sin verificación de cumplimiento, medidas adoptadas para mitigar los efectos de la pandemia del COVID 19.
 
     .row.align-items-center.mb-5
       .col-lg-4
@@ -54,7 +54,10 @@
       .col-lg-4
         img.img-a(src="@/assets/curso/tema_2/img_4.png")
 
-    p.mb-3 Por lo que se puede decir que apunta directamente a combatir la pobreza monetaria por medio del ingreso, mientras que lo hace de manera indirecta con la pobreza multidimensional, ya que el condicionamiento que justifica las transferencias está orientadas al desarrollo humano de los participantes, principalmente los niños, niñas y adolescentes .
+    p.mb-3 Por lo que se puede decir que apunta directamente a combatir la pobreza monetaria por medio del ingreso, mientras que lo hace de manera indirecta con la pobreza multidimensional, ya que el condicionamiento que justifica las transferencias está orientadas al desarrollo humano de los participantes, principalmente los niños, niñas y adolescentesp#[sup 8].
+
+    .subref.mb-5
+      p #[sup 8] “El programa, ofrece un incentivo en dinero a las familias pobres y vulnerables, con hijos menores de 18 años, sujeto al cumplimiento de ciertos requisitos para alcanzar tres componentes importantes para el desarrollo del capital humano: educación, salud y nutrición, donde, se pretende incentivar la demanda de servicios de educación y salud por parte de la población pobre y vulnerable y, en la medida en que exige corresponsabilidades por parte de las familias, genera un proceso para que ellas mismas contribuyan a la superación de su condición de pobreza” (DNP, 2019).
 
     p.mb-5 Para tales efectos se propone el cumplimiento de los siguientes objetivos específicos:
 
@@ -124,23 +127,26 @@
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
           img(src='@/assets/curso/tema_2/img_7.png' alt='AvatarTop')
-          .tarjeta.tarjeta--blanca.p-4
+          .tarjeta.tarjeta--blanca.p-4.tarrjeta--clara
             .h4.text-center Requisito 1
             p Que el titular se encuentre incluido en las bases de datos utilizadas para la focalización según grupo poblacional: SISBEN, SIUNIDOS, RUV o listados censales indígenas.
+        img.top-img.img-a(src='@/assets/curso/tema_2/img_33.png')
 
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
           img(src='@/assets/curso/tema_2/img_8.png' alt='AvatarTop')
-          .tarjeta.tarjeta--blanca.p-4
+          .tarjeta.tarjeta--blanca.p-4.tarrjeta--clara
             .h4.text-center Requisito 2
             p Que el titular haya sido seleccionado en el proceso de focalización.
+        img.top-img.img-a(src='@/assets/curso/tema_2/img_33.png')
 
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
           img.img-a(src='@/assets/curso/tema_2/img_9.png' alt='AvatarTop')
-          .tarjeta.tarjeta--blanca.p-4
+          .tarjeta.tarjeta--blanca.p-4.tarrjeta--clara
             .h4.text-center Requisito 3
             p Que su núcleo familiar cuente con niños, niñas y adolescentes menores de 18 años. 
+        img.top-img.img-a(src='@/assets/curso/tema_2/img_33.png')
 
     p.mb-5 El proceso operativo de inscripción de las familias focalizadas se realiza de forma masiva y periódica. En casos excepcionales, la inscripción se realiza de forma individual, para una comunidad o territorio específico, según directriz del Gobierno nacional o en cumplimiento de una orden judicial.
 
@@ -229,7 +235,10 @@
                   .card__copy 
                     p El incentivo consiste en una transferencia en dinero para familias con niños menores de 6 años con pago bimestral bajo la verificación de la asistencia a estas atenciones integrales, y cuyo valor es diferenciado por grupo de municipio. 
 
-    p.mb-5 Una vez verificados los compromisos en materia de salud y educación, el siguiente paso es la liquidación y entrega de incentivos . El programa define el valor total de los incentivos que se le entregará a cada una de las familias, de acuerdo con las reglas de verificación establecidas y parametrizadas en el sistema de información SIFA, la cual se realizará a través de una transferencia bancaria, siendo esta una estrategia adicional para vincular paulatinamente a los participantes al sistema financiero. 
+    p.mb-3 Una vez verificados los compromisos en materia de salud y educación, el siguiente paso es la liquidación y entrega de incentivos#[sup 9]. El programa define el valor total de los incentivos que se le entregará a cada una de las familias, de acuerdo con las reglas de verificación establecidas y parametrizadas en el sistema de información SIFA, la cual se realizará a través de una transferencia bancaria, siendo esta una estrategia adicional para vincular paulatinamente a los participantes al sistema financiero. 
+
+    .subref.mb-5
+      p #[sup 9] En caso de llegar a presentarse novedades con respecto a la información básica de las familias, tales como su composición, ubicación o algún dato relevante durante su transcurso en el programa, es importante que éstas lo notifiquen para garantizar que SIFA se encuentre permanentemente actualizado, lo cual redunda en la prestación de un acompañamiento con mayor calidad y oportunidad.
 
     .row.mb-4
       .col-lg-4
@@ -435,23 +444,26 @@
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
           img(src='@/assets/curso/tema_2/img_26.png' alt='AvatarTop')
-          .tarjeta.tarjeta--blanca.p-4
+          .tarjeta.tarjeta--blanca.p-4.tarrjeta--clara
             .h4.text-center Pre-registrado
             p Estado en el que continua el joven hasta que se subsane en el tiempo dato, la documentación y/o información requerida en la validación que presentó inconsistenicias.
+        img.top-img.img-a(src='@/assets/curso/tema_2/img_33.png')
 
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
           img(src='@/assets/curso/tema_2/img_27.png' alt='AvatarTop')
-          .tarjeta.tarjeta--blanca.p-4
+          .tarjeta.tarjeta--blanca.p-4.tarrjeta--clara
             .h4.text-center Registrado
             p Estado que se da cuando el joven pasó el filtro de validación de la información de los documentos compartidos.
+        img.top-img.img-a(src='@/assets/curso/tema_2/img_33.png')
 
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
           img.img-a(src='@/assets/curso/tema_2/img_28.png' alt='AvatarTop')
-          .tarjeta.tarjeta--blanca.p-4
+          .tarjeta.tarjeta--blanca.p-4.tarrjeta--clara
             .h4.text-center Inscrito
             p Estado en el que el joven se convierte en participante del programa, suceptible de recibir el TMC si cumple con los compromisos acordados con la IES o el SENA.
+        img.top-img.img-a(src='@/assets/curso/tema_2/img_33.png')
 
     .tarjeta.tarjeta--azul.color_tarjeta_1.p-3.mb-5
       .row.justify-content-around.align-items-center

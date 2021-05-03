@@ -89,12 +89,18 @@
     .bloque-texto-a.p-4.p-md-5.mb-5
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
-          .h3.mb-0 Ambas metodologías permiten entender como los hogares en situación de:  
+          img.img-a(src='@/assets/curso/tema_2/img_4.png') 
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p pobreza presentan dificultades para garantizar la mejora de su nivel y calidad de vida, así como el correcto desarrollo de las capacidades que como seres humanos deben tener sus integrantes, y en la medida en la que se profundiza, fomenta el desarrollo de otros fenómenos como desnutrición, infraconsumo , inseguridad, bajos niveles educativos, inserción inestable al sector productivo y condiciones de habitabilidad y salubridad precarias, las cuales no solamente tienen efecto en la satisfacción de una serie de necesidades básicas materiales, sino también en varios aspectos de naturaleza no material, tales como la autorrealización personal, movilidad y participación social, así como de derechos humanos, entre otros, que se entrelazan en una relación interdependiente que garantiza su permanente reproducción (DNP - Conpes, 2012).
+            p Ambas metodologías permiten entender cómo los hogares en situación de pobreza presentan dificultades para garantizar la mejora de su nivel y calidad de vida, así como el correcto desarrollo de las capacidades que como seres humanos deben tener sus integrantes, y en la medida en la que se profundiza, fomenta el desarrollo de otros fenómenos como desnutrición, infraconsumo#[sup 1] , inseguridad, bajos niveles educativos, inserción inestable al sector productivo y condiciones de habitabilidad y salubridad precarias, las cuales no solamente tienen efecto en la satisfacción de una serie de necesidades básicas materiales, sino también en varios aspectos de naturaleza no material, tales como la autorrealización personal, movilidad y participación social, así como de derechos humanos, entre otros, que se entrelazan en una relación interdependiente que garantiza su permanente reproducción (DNP - Conpes, 2012).
 
-    p.mb-3 Finalmente, dentro de este mismo concepto es importante resaltar a aquellas personas u hogares cuyas privaciones llegan al punto de no poder garantizar la satisfacción de su necesidad más básica, la de alimentarse, quienes se consideran ubicados en una categoría denominada pobreza extrema y por tanto requieren de atención especial por parte del Estado debido a su nivel mayor de vulnerabilidad .
+    .subref.mb-5
+      p #[sup 1] A nivel social, el infraconsumo hace referencia a una situación en la cual la capacidad de adquirir productos por parte de los hogares es inferior a la producción existente, lo que conlleva a un aumento de las existencias en las empresas que conlleva a una reducción drástica de los precios, afectaciones a la estabilidad de las empresas y por ende de sus plazas de trabajo, es decir, puede generar desempleo, disminución de la capacidad adquisitiva de los hogares y una reducción en la producción. 
+    
+    p.mb-3 Finalmente, dentro de este mismo concepto es importante resaltar a aquellas personas u hogares cuyas privaciones llegan al punto de no poder garantizar la satisfacción de su necesidad más básica, la de alimentarse, quienes se consideran ubicados en una categoría denominada pobreza extrema y por tanto requieren de atención especial por parte del Estado debido a su nivel mayor de vulnerabilidad#[sup 2].
+
+    .subref.mb-5
+      p #[sup 2] “El Departamento Administrativo para la Prosperidad Social, entidad responsable a nivel nacional de diseñar, coordinar e implementar políticas públicas para la superación de la pobreza y la equidad social, ha venido dirigiendo sus esfuerzos en erradicar la pobreza extrema de Colombia, trabajo que requiere no solo del rediseño de sus programas sino de la articulación con otras entidades nacionales y territoriales en el marco de una renovada propuesta institucional denominada Ruta para la Superación de la Pobreza” (DPS, 2020).
 
     p.mb-5 A continuación, se presentan cada una de estas metodologías, así como su estado para el año 2019:
 
@@ -117,12 +123,19 @@
 
     .row.align-items-center.mb-5
       .col-lg-8
-        p.mb-3 Para su comprensión es importante considerar que el ingreso mensual per cápita  es la cantidad de ingresos que percibe un hogar en este período de tiempo dividido entre el número de sus integrantes, y que la línea de pobreza monetaria es un umbral que determina el nivel de ingresos per cápita mínimo con el cual debe contar un hogar para adquirir una canasta básica de bienes alimentarios y no alimentarios que les garantice su supervivencia e identificar la distancia existente entre los hogares más pobres y el umbral. 
+        p.mb-3 Para su comprensión es importante considerar que el ingreso mensual per cápita#[sup 3]  es la cantidad de ingresos que percibe un hogar en este período de tiempo dividido entre el número de sus integrantes, y que la línea de pobreza monetaria es un umbral que determina el nivel de ingresos per cápita mínimo con el cual debe contar un hogar para adquirir una canasta básica de bienes alimentarios y no alimentarios que les garantice su supervivencia e identificar la distancia existente entre los hogares más pobres y el umbral. 
 
         p Para una mejor comprensión revisar el siguiente ejemplo.
 
       .col-lg-4
         img.img-a(src="@/assets/curso/tema_1/img_10.png")
+
+    
+
+    .subref.mb-5
+      p #[sup 3] “Ingreso per cápita de la unidad de gasto: es el resultado de dividir el ingreso corriente disponible de la unidad de gasto entre el número de personas que conforman la unidad de gasto”. La unidad de gasto “equivale a los miembros del hogar diferentes al servicio doméstico y sus familiares, pensionistas y otros trabajadores dedicados al hogar”. (DANE, 2020).
+
+
 
     p.mb-5 Esto significa que si los ingresos percibidos por el hogar en un determinado período de tiempo son inferiores al costo definido por el umbral, el hogar es considerado como pobre monetario. En el caso de la pobreza monetaria extrema, el límite del umbral está determinado por el valor que representa el ingreso mínimo per cápita necesario para cubrir el costo de una canasta básica de alimentos, que tenga los requerimientos calóricos adecuados (DANE, 2020). 
 
@@ -133,7 +146,10 @@
         .col-lg-8
           p La línea de pobreza y pobreza extrema no es estática, es decir que puede variar de acuerdo con los cambios que se pueden presentar en los hábitos de consumo de los hogares, en su nivel de ingreso per cápita e incluso en la variación de las metodologías para su medición. De aquí es posible inferir que la línea de pobreza no es la misma en todo tiempo y lugar, por lo que se requiere acudir a herramientas estadísticas, tales como la Gran Encuesta Integrada de Hogares (GEIH), que proporciona los insumos para identificar el ingreso de los hogares, y la Encuesta Nacional de Presupuesto de los Hogares (ENPH), la cual permite obtener información sobre el monto y la distribución de los gastos de los hogares colombianos (DANE, 2020), con el fin de garantizar la actualización de la información. 
 
-    p.mb-5 En Colombia, para el año 2019 se estableció el límite para la pobreza monetaria extrema en $137.350,00 y para pobreza monetaria en $327.674,00. En un hogar compuesto por cuatro personas, por ejemplo, para estar por encima de la línea de pobreza extrema monetaria se requiere que sus ingresos sumados sean superiores a $549.400,00 para superar la línea de pobreza extrema y de $1.310.696,00 para estar por encima de la línea de pobreza monetaria , de otro modo, hará parte de los 35,7% de hogares que de acuerdo con el Departamento Administrativo Nacional de Estadística (DANE), se encuentran en situación de pobreza monetaria a 2019, y el 9,6% que están en pobreza extrema monetaria.
+    p.mb-3 En Colombia, para el año 2019 se estableció el límite para la pobreza monetaria extrema en $137.350,00 y para pobreza monetaria en $327.674,00. En un hogar compuesto por cuatro personas, por ejemplo, para estar por encima de la línea de pobreza extrema monetaria se requiere que sus ingresos sumados sean superiores a $549.400,00 para superar la línea de pobreza extrema y de $1.310.696,00 para estar por encima de la línea de pobreza monetaria#[sup 4], de otro modo, hará parte de los 35,7% de hogares que de acuerdo con el Departamento Administrativo Nacional de Estadística (DANE), se encuentran en situación de pobreza monetaria a 2019, y el 9,6% que están en pobreza extrema monetaria.
+
+    .subref.mb-5
+      p #[sup 4] El valor asignado a la línea de pobreza señalado corresponde al total nacional, sin embargo, puede variar de acuerdo con la ubicación. Para 2019, la línea de pobreza en cabeceras municipales se estableció en $361.594,00, en centros poblados y rural disperso en $210.969,00, en las 13 ciudades principales y sus áreas metropolitanas en $400.698,00 (DANE, 2020). 
 
     .row.mb-5
       .col-lg-6
@@ -156,13 +172,16 @@
     p.mb-5 La definición de la pobreza a partir de los ingresos si bien ha sido una herramienta útil para la formulación de políticas públicas, resulta insuficiente para la identificación de la totalidad de factores que intervienen en el fenómeno y la manera en la que lo hacen, por lo que en Colombia se ha trabajado para la adopción de modelos que tengan en consideración otras dimensiones, tomando como fundamento los aportes de Amartya Sen, la Comisión Sarkosy y más recientemente los del Oxford Poverty & Human Development Initiative. Estos últimos propusieron en 2007 el Índice de Pobreza Multidimensional (IPM), el cual entiende que la pobreza en cada hogar o sociedad no se presenta por las mismas razones, por lo que no se puede medir por medio de un mismo parámetro (ingresos), adicionalmente, proporciona una mayor variedad de factores de análisis que permiten la formulación de políticas públicas de mayor alcance (DANE, 2014). 
 
 
-    .bloque-texto-a.p-4.p-md-5.mb-5
+    .bloque-texto-a.p-4.p-md-5.mb-3
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
-          .h3.mb-0 El IPM se ajusta a las características de la pobreza de cada país donde es adoptado.  
+          img.img-a(src='@/assets/curso/tema_1/img_35.png')
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p Disponiendo para el análisis un grupo de dimensiones cuya capacidad de acceso por parte de los hogares es la que determina cuántas y cuáles privaciones tiene, y por ende su situación de pobreza o no . Para el caso colombiano, el Conpes 150 de 2012, Metodologías oficiales y arreglos institucionales para la medición de la pobreza en Colombia, reconoce cinco (5) dimensiones:
+            p El IPM se ajusta a las características de la pobreza de cada país donde es adoptado, disponiendo para el análisis un grupo de dimensiones cuya capacidad de acceso por parte de los hogares es la que determina cuántas y cuáles privaciones tiene, y por ende su situación de pobreza o no#[sup 5]. Para el caso colombiano, el Conpes 150 de 2012, Metodologías oficiales y arreglos institucionales para la medición de la pobreza en Colombia, reconoce cinco (5) dimensiones:
+
+    .subref.mb-5
+      p #[sup 5] “Para el cálculo del IPM se utiliza al hogar como unidad de análisis. Esto quiere decir que las personas al interior de un hogar experimentan simultáneamente las privaciones y no cada persona de forma aislada” (DNP - Conpes, 2012).
 
     .row.justify-content-center.mb-5
       .col-12.col-md-10
@@ -220,11 +239,13 @@
       .col-lg-8
         p De acuerdo con lo anterior, para el año 2019 se identifica que en Colombia el 17,5 % de hogares se encuentran en situación de pobreza multidimensional, siendo la zona rural dispersa y centros poblados donde mayormente se encuentra concentrada. En materia de dimensiones e indicadores, las privaciones con mayor porcentaje de hogares son trabajo informal (72,9 %), bajo logro educativo (44 %) y rezago escolar (25,8 %). 
 
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-3
       .col-lg-8
         p Lo anterior significa que en Colombia la mayor parte de los hogares perciben un ingreso proveniente del desarrollo de una actividad informal, que cerca de la mitad de los hogares cuentan con un jefe de hogar con menos de nueve (9) años de escolaridad, y alrededor de una cuarta parte de los hogares cuentan con miembros que se encuentran cursando un grado inferior al que deberían acorde con su edad, lo que se traduce en dificultades para contar con un servicio de salud, de pensiones y caja de compensación familiar con los beneficios que tiene la población cotizante, limitaciones para la generación de oportunidades laborales y productivas para la movilización social y una subvaloración de la educación como vehículo del progreso personal, familiar y comunitario que solamente aporta a la reproducción de estos mismos patrones. 
       .col-lg-4
         img.img-a(src="@/assets/curso/tema_1/img_21.png")
+
+    p.mb-5 Los indicadores de trabajo infantil (1,7%), material inadecuado de paredes exteriores (2,6%) e inasistencia escolar (2,7%) representan el menor porcentaje de hogares. 
 
     .tarjeta.tarjeta--azul.color_tarjeta_1.p-3.mb-5
       .row.justify-content-around.align-items-center
@@ -243,7 +264,7 @@
 
     figure.mb-5
       img.img-a(src='@/assets/curso/tema_1/img_23.png', alt='Nota: con base en Datos Encuesta de Calidad de Vida - ECV, 2018-2019 (DANE, 2020).')
-      figcaption.mt-3 Nota: con base en Barzán, Quintero y Hernández (2011).
+      figcaption.mt-3 Nota: con base en Datos Encuesta de Calidad de Vida - ECV, 2018-2019 (DANE, 2020).
 
     p.mb-5 Estos datos permiten identificar y evaluar las acciones que en materia de políticas públicas ya se han adelantado, se están adelantando o se deberían adelantar con el fin de garantizar la mejora de la calidad de vida de los hogares más vulnerables y un ambiente que permita un adecuado desarrollo humano.
 
@@ -251,9 +272,12 @@
     .titulo-segundo
       #t_1_3.h4 1.3	Ruta para la superación de la pobreza
 
-    p.mb-5 En este marco, desde Prosperidad Social se propone la Ruta para la Superación de la Pobreza , una iniciativa orientada al aumento de las oportunidades de inclusión social y productiva para hogares en situación de pobreza, que permita la superación de privaciones sociales y de las barreras en la generación de ingresos sostenibles, lo cual será posible por medio de una oferta integral y concurrente, así como de una caracterización detallada de hogares y territorio, en donde se identifican las necesidades de inclusión social y productiva y se prioriza el conjunto de intervenciones.
+    p.mb-3 En este marco, desde Prosperidad Social se propone la Ruta para la Superación de la Pobreza#[sup 6], una iniciativa orientada al aumento de las oportunidades de inclusión social y productiva para hogares en situación de pobreza, que permita la superación de privaciones sociales y de las barreras en la generación de ingresos sostenibles, lo cual será posible por medio de una oferta integral y concurrente, así como de una caracterización detallada de hogares y territorio, en donde se identifican las necesidades de inclusión social y productiva y se prioriza el conjunto de intervenciones.
 
-    p.mb-5 
+    .subref.mb-5
+      p #[sup 6] La Ruta de Superación de Pobreza es una iniciativa que se encuentra en fase de diseño, por lo que algunos de los componentes acá señalados podrían cambiar en su intensión o funcionamiento.
+
+    p.mb-5 Los hogares focalizados para ingresar en la Ruta son:
 
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -290,7 +314,9 @@
 
     p.mb-3 Para su desarrollo, la Ruta establece como punto de partida la Estrategia Red Unidos, en la cual los hogares son caracterizados para identificar los factores que determinan su situación de pobreza y posteriormente podrán ser enrutados a los diferentes programas con los que cuenta Prosperidad Social, de acuerdo con los criterios de focalización y presupuestales de cada uno de ellos. Esto permite que los hogares experimenten un proceso de vinculación social y productiva en donde puedan garantizar el acceso prioritario a programas de educación, salud y complementarios que les permita trabajar sus habilidades para la vida y oportunidades productivas; lo cual, acompañado a la debida infraestructura social y un incentivo al consumo, hará que los hogares tengan las herramientas para salir de su situación de pobreza. Finalmente, se lleva a cabo la evaluación del recorrido realizado, los programas en los que ha participado y los resultados obtenidos, con el fin de vincular el hogar a la oferta pública restante que les permita continuar con su proceso de manera sostenida.
 
-    p.mb-5 En este transcurso los participantes hacen parte de un proceso que incluye cinco (5) líneas de acción:
+    p.mb-3 En este transcurso los participantes hacen parte de un proceso que incluye cinco (5) líneas de acción:
+
+    p.mb-5 Con esto se busca aportar al cumplimiento de las metas relacionadas con la superación de la pobreza que propone el Plan Nacional de Desarrollo 2018 - 2022, tales como la superación de la pobreza monetaria extrema por parte de 1,5 millones de personas, 2,9 millones de personas que superen la pobreza monetaria y 2,5 millones de personas que superen la multidimensional (DNP, 2019).
 
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="1. Apoyo al consumo")

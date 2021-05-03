@@ -11,10 +11,10 @@
     .bloque-texto-a.p-4.p-md-5.mb-5
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
-          .h3.mb-0 Teniendo en cuenta los objetivos del programa Familias en Acción: 
+          img.img-a(src="@/assets/curso/tema_2/img_4.png") 
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p una de las situaciones que requieren de su mayor atención radica en garantizar el cumplimiento de los compromisos en materia de educación necesarios para la transferencia de los incentivos, ya que la exigibilidad de la asistencia y permanencia escolar contribuye a la protección efectiva de los derechos de los niños, niñas y adolescentes. Por tal motivo, se evidenció la necesidad de diseñar una estrategia que permita identificar los casos en los que se presentan incumplimientos de los compromisos educativos, realizar el respectivo seguimiento y remitirlos a la instancia que permita llevar a cabo una acción correctiva en caso de ser necesario. 
+            p Teniendo en cuenta los objetivos del programa Familias en Acción, una de las situaciones que requieren de su mayor atención radica en garantizar el cumplimiento de los compromisos en materia de educación necesarios para la transferencia de los incentivos, ya que la exigibilidad de la asistencia y permanencia escolar contribuye a la protección efectiva de los derechos de los niños, niñas y adolescentes. Por tal motivo, se evidenció la necesidad de diseñar una estrategia que permita identificar los casos en los que se presentan incumplimientos de los compromisos educativos, realizar el respectivo seguimiento y remitirlos a la instancia que permita llevar a cabo una acción correctiva en caso de ser necesario.  
 
     p.mb-3 En este sentido surge la estrategia de alertas para la permanencia escolar y protección integral de niños, niñas y adolescentes de Familias en Acción, una iniciativa que tiene por objeto identificar, a partir de la información suministrada por el SIFA, los incumplimientos de compromisos en educación de las familias que participan en el programa de Familias en Acción, posibles inobservancias, amenazas o vulneraciones de los derechos de los niños, niñas y adolescentes, así como la gestión de las acciones para la garantía de sus derechos, a través de la articulación de acciones entre las entidades del nivel nacional y territorial (DPS, 2020). 
 
@@ -63,7 +63,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/1D-fOF0YGOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
 
     p.mb-5 De acuerdo con lo visto en el video, es importante aclarar que en:
@@ -78,7 +78,10 @@
       .col-lg-4
         img.img-a(src="@/assets/curso/tema_3/img_6.png").img-fluid
       .col-lg-8
-        p El equipo EMPI brindará atención a los niñas, niños y adolescentes reportados por el enlace de Familias en Acción en su entorno familiar, con el objetivo de identificar situaciones de inobservancia, amenaza o vulneración de derechos, activar rutas de protección de ser necesario, gestionar servicios y ofertas del SNBF y desarrollar un proceso de acompañamiento psicosocial para la familia de acuerdo con los procedimientos establecidos por el ICBF para tal fin (DPS, 2020). Esta información debe ser remitida igualmente a la mesa de infancia y adolescencia  para su conocimiento y respectivo seguimiento.
+        p El equipo EMPI brindará atención a los niñas, niños y adolescentes reportados por el enlace de Familias en Acción en su entorno familiar, con el objetivo de identificar situaciones de inobservancia, amenaza o vulneración de derechos, activar rutas de protección de ser necesario, gestionar servicios y ofertas del SNBF y desarrollar un proceso de acompañamiento psicosocial para la familia de acuerdo con los procedimientos establecidos por el ICBF para tal fin (DPS, 2020). Esta información debe ser remitida igualmente a la mesa de infancia y adolescencia#[sup 10]  para su conocimiento y respectivo seguimiento.
+
+    .subref.mb-3
+      p #[sup 10] “Es una instancia de operación y desarrollo técnico del SNBF que, en el marco del CMPS, se articula como la mesa especializada en la que deben confluir las temáticas, mesas y comités relacionados con infancia, adolescencia y fortalecimiento familiar” (SNBF, 2015).
 
 
     .row.align-items-center.mb-5
