@@ -205,10 +205,10 @@ export const creditos = {
     },
     {
       nombre: [
-        'Adriana Ariza',
-        'Angela Maldonado',
+        'Angela María Maldonado Jaime',
         'Gilberto Junior Rodríguez Rodríguez',
         'Jesus Antonio Vecino Valero',
+        'Lady Adriana Ariza Luque',
         'Luis Gabriel Urueta Álvarez',
         'Maria Carolina Tamayo',
         'Wilson Andres Arenales Cáceres',
