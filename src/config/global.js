@@ -73,7 +73,7 @@ export const menuPrincipal = {
       icono: 'far fa-file-alt',
       numero: '3',
       titulo:
-        'Estrategia de alertas para la permanencia escolar y protección integral de los niños, niñas y adolescentes de Familias en Acción',
+        'Estrategia de alertas para la permanencia escolar y protección integral de niños, niñas y adolescentes de Familias en Acción',
       desarrolloContenidos: true,
       subMenu: [
         {
@@ -88,16 +88,22 @@ export const menuPrincipal = {
           titulo: 'Actores involucrados',
           hash: 't_3_2',
         },
+        {
+          icono: 'far fa-file-alt',
+          numero: '3.3',
+          titulo: 'Actividad didáctica',
+          hash: 't_3_3',
+        },
       ],
     },
   ],
   subMenu: [
-    {
+    /*{
       nombreRuta: 'actividad',
       icono: 'far fa-question-circle',
       titulo: 'Actividad didáctica',
       desarrolloContenidos: true,
-    },
+    },*/
     {
       nombreRuta: 'glosario',
       icono: 'fas fa-sort-alpha-down',
@@ -128,48 +134,42 @@ export const menuPrincipal = {
 
 export const creditos = {
   liderEquipo: {
-    nombre: 'Maria Camila Garcia Santamaria',
-    cargo: 'Líder del equipo',
+    nombre: 'María Camila Garcia Santamaría',
+    cargo: 'Líder del Equipo',
   },
   contenidoInstruccional: [
     {
       nombre: 'Rafael Neftalí Lizcano Reyes',
-      cargo: 'Asesor metodológico y pedagógico',
+      cargo: 'Asesor Metodológico y Pedagógico',
       centro: 'Centro Industrial del Diseño y la Manufactura',
       regional: 'Regional Santander',
     },
     {
-      nombre: 'Ana Francisca Uribe Cárdenas',
-      cargo: 'Experta temática',
-      centro:
-        'Equipo de Verificación. Programa Familias en Acción Dirección de Transferencias Monetarias Condicionadas.',
-    },
-    {
-      nombre: 'Claudia Pureza Perdomo Gómez',
-      cargo: 'Experta temática',
-      centro:
-        'GIT Territorios y Poblaciones Dirección de Transferencias Monetarias Condicionadas',
+      nombre: 'William Mogollón Marín',
+      cargo: 'Consultor',
+      centro: 'CORPROGRESO',
     },
     {
       nombre: 'Jairo Fernando Contreras Gutiérrez',
-      cargo: 'Experto temático',
+      cargo: 'Profesional Prosperidad Socia',
       centro: 'Oficina Asesora de Planeación',
     },
     {
       nombre: 'Martha Cecilia Arcila Aponte',
-      cargo: 'Experta temática',
+      cargo: 'Profesional Especializada Prosperidad Social',
       centro: 'DTMC Grupo de Pilotaje y Escalamiento',
     },
     {
-      nombre: 'Omayra Hoyos Rojas',
-      cargo: 'Experta temática',
+      nombre: ['Ana Francisca Uribe Cárdenas', 'Omayra Hoyos Rojas'],
+      cargo: 'Profesional Prosperidad Social',
       centro:
         'Equipo de Verificación. Programa Familias en Acción Dirección de Transferencias Monetarias Condicionadas',
     },
     {
-      nombre: 'William Mogollón Marín',
-      cargo: 'Experto temático',
-      centro: 'CORPROGRESO',
+      nombre: 'Claudia Pureza Perdomo Gómez',
+      cargo: 'Profesional Especializada Prosperidad Social',
+      centro:
+        'GIT Territorios y Poblaciones Dirección de Transferencias Monetarias Condicionadas',
     },
     {
       nombre: 'Liliana Victoria Morales Gualdrón',
@@ -179,60 +179,56 @@ export const creditos = {
     },
     {
       nombre: 'Dayra Maritza Paz Calderón',
-      cargo: 'Diseñadora instruccional y evaluadora Instruccional',
+      cargo: 'Diseñadora y Evaluadora Instruccional',
       centro: 'Centro para la Industria y la Comunicación Gráfica',
       regional: 'Regional Distrito Capital',
     },
     {
-      nombre: 'Julia Isabel Roberto',
-      cargo: 'Evaluadora instruccional',
-      centro: 'Centro para la comunicación de la Industria Gráfica',
-      regional: 'Regional Distrito Capital',
-    },
-    {
       nombre: 'José Gabriel Ortiz Abella',
-      cargo: 'Revisión metodológica y pedagógica',
-      centro: 'Centro de Diseño y Metrología',
+      cargo: 'Corrector de Estilo',
+      centro: 'Centro para la Comunicación de la Industria Gráfica',
       regional: 'Regional Distrito Capital',
     },
   ],
   desarrolloProducto: [
     {
       nombre: 'Francisco José Lizcano Reyes',
-      cargo: 'Responsable del equipo',
+      cargo: 'Responsable del Equipo',
       centro: 'Centro Industrial Del Diseño Y La Manufactura',
       regional: 'Regional Santander',
     },
     {
       nombre: 'Leyson Fabian Castaño Perez',
-      cargo: 'Soporte organizacional',
+      cargo: 'Soporte Organizacional',
       centro: 'Centro de Comercio y Servicios',
       regional: 'Regional Tolima',
     },
     {
       nombre: [
+        'Adriana Ariza',
+        'Angela Maldonado',
+        'Gilberto Junior Rodríguez Rodríguez',
         'Jesus Antonio Vecino Valero',
-        'José Jaime Luis Tang Pinzón',
-        'Lady Adriana Ariza Luque',
-        'Luis Zenen Arévalo Mantilla',
-        'Nelson Iván Vera Briceño',
-        'Oleg Litvin',
+        'Luis Gabriel Urueta Álvarez',
+        'Maria Carolina Tamayo',
         'Wilson Andres Arenales Cáceres',
-        'Zuleidy Maria Ruiz Torres',
       ],
       cargo: 'Diseño web y Producción Audiovisual',
+      centro: 'Centro Industrial del Diseño y la Manufactura',
+      regional: 'Regional Santander',
+    },
+    {
+      nombre: 'Zuleidy María Ruíz Torres',
+      cargo: 'Diseño Web y Producción Audiovisual',
+      centro: 'Centro de Comercio y Servicios',
+      regional: 'Regional Tolima',
     },
     {
       nombre: ['Daniel Ricardo Mutis Gómez', 'Ricardo Alfonso González Vargas'],
       cargo: 'Desarrollo Front-End',
     },
     {
-      nombre: [
-        'Jenny Paola Montillo',
-        'María Isabel Román Rueda',
-        'Rafael Augusto Mantilla',
-        'Veimar Celis Meléndez',
-      ],
+      nombre: 'Veimar Celis Meléndez',
       cargo: 'Revisores de contenido',
     },
     {

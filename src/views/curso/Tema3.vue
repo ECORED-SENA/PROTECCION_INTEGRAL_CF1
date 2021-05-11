@@ -59,7 +59,7 @@
     .titulo-segundo
       #t_3_1.h4 3.1	Conceptos de la estrategia
 
-    p.mb-5 A través de un proceso permanente de recolección, análisis y sistematización de la información el programa Familias en Acción genera alertas y poner en marcha acciones de seguimiento a la ejecución de sus procesos lo cual permite asegurar la permanencia escolar de niñas, niños y adolescentes. En el siguiente video podrá conocer las diferentes acciones que se llevan a acabo según la situación presentada.
+    p.mb-5 A través de un proceso permanente de recolección, análisis y sistematización de la información el programa Familias en Acción genera alertas y poner en marcha acciones de seguimiento a la ejecución de sus procesos lo cual permite asegurar la permanencia escolar de niñas, niños y adolescentes. En el siguiente video podrá conocer las diferentes acciones que se llevan a cabo según la situación presentada.
 
     figure.mb-5
       .video
@@ -78,7 +78,7 @@
       .col-lg-4
         img.img-a(src="@/assets/curso/tema_3/img_6.png").img-fluid
       .col-lg-8
-        p El equipo EMPI brindará atención a los niñas, niños y adolescentes reportados por el enlace de Familias en Acción en su entorno familiar, con el objetivo de identificar situaciones de inobservancia, amenaza o vulneración de derechos, activar rutas de protección de ser necesario, gestionar servicios y ofertas del SNBF y desarrollar un proceso de acompañamiento psicosocial para la familia de acuerdo con los procedimientos establecidos por el ICBF para tal fin (DPS, 2020). Esta información debe ser remitida igualmente a la mesa de infancia y adolescencia#[sup 10]  para su conocimiento y respectivo seguimiento.
+        p El equipo EMPI brindará atención a las niñas, niños y adolescentes reportados por el enlace de Familias en Acción en su entorno familiar, con el objetivo de identificar situaciones de inobservancia, amenaza o vulneración de derechos, activar rutas de protección de ser necesario, gestionar servicios y ofertas del SNBF y desarrollar un proceso de acompañamiento psicosocial para la familia de acuerdo con los procedimientos establecidos por el ICBF para tal fin (DPS, 2020). Esta información debe ser remitida igualmente a la mesa de infancia y adolescencia#[sup 10]  para su conocimiento y respectivo seguimiento.
 
     .subref.mb-3
       p #[sup 10] “Es una instancia de operación y desarrollo técnico del SNBF que, en el marco del CMPS, se articula como la mesa especializada en la que deben confluir las temáticas, mesas y comités relacionados con infancia, adolescencia y fortalecimiento familiar” (SNBF, 2015).
@@ -189,7 +189,7 @@
           tr
             td 
               img.img-a(src="@/assets/curso/tema_3/img_9.png")
-            td.text-center Consolidación de información de los niños, niñas y adolescentes en estado “No cumplido”, con causales “inasistencia injustificada” “deserción” o retiro”.
+            td.text-center Consolidación de información de los niños, niñas y adolescentes en estado “No cumplido”, con causales “inasistencia injustificada” deserción” o “retiro”.
             td.text-center GIT pilotaje y escalamiento de proyectos de la Dirección de Transferencias Monetarias Condicionadas – Prosperidad Social. 
             td.text-center Reporte de niños, niñas y adolescentes priorizados que después de realizarse los cruces descritos sean reportados como “inasistencia injustificada”, “deserción” o “retiro”.
           tr
@@ -268,6 +268,21 @@
             td.text-center Secretaría Técnica de la Mesa de Primera Infancia, Infancia, Adolescencia y Fortalecimiento Familiar.
             td.text-center Propuestas de intervención o propuestas de política pública que requieran ser escaladas al consejo de política social del municipio.
 
+    .titulo-segundo
+      #t_3_3.h4 3.3  Actividad didáctica
+
+    .crd_complete
+      .row.justify-content-center.align-items-center
+        .col-auto.me-5
+          img(src="@/assets/componentes/img_actividad.svg", style="width:450px")
+        .col
+          .titulo-segundo.mb-4
+            .h4 Contexto sobre la estrategia de alertas del programa Familias en Acción
+          p.mb-4 Mediante la siguiente actividad se busca fortalecer los conocimientos adquiridos sobre el contexto sobre la estrategia de alertas del programa Familias en Acción. 
+
+          a.boton.boton--b(:href="obtenerLink('actividad/index.html')" target="_blank" type="application/pdf")
+            span Iniciar
+            i.fas.fa-file-download
 
 
 </template>
