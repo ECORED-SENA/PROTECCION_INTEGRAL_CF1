@@ -181,7 +181,7 @@
           tr
             th 
             th Acción
-            th Actores/instacias
+            th Actores/instancias
             th Producto
           tr
             th(colspan="4").color-table Generación de alertas

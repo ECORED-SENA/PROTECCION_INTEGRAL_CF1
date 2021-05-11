@@ -229,7 +229,7 @@ export const creditos = {
     },
     {
       nombre: 'Veimar Celis Meléndez',
-      cargo: 'Revisores de contenido',
+      cargo: 'Revisor de Contenidos',
     },
     {
       centro: 'Centro Industrial del Diseño y la Manufactura',
