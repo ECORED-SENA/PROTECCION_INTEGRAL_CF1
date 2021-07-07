@@ -151,10 +151,11 @@
     .subref.mb-5
       p #[sup 4] El valor asignado a la línea de pobreza señalado corresponde al total nacional, sin embargo, puede variar de acuerdo con la ubicación. Para 2019, la línea de pobreza en cabeceras municipales se estableció en $361.594,00, en centros poblados y rural disperso en $210.969,00, en las 13 ciudades principales y sus áreas metropolitanas en $400.698,00 (DANE, 2020). 
 
-    .row.mb-5
+    .row.align-items-start.mb-5
       .col-lg-6
-        .h5.text-center.mb-5 Incidencia pobreza monetaria en Colombia 2018 - 2019.
-        figure
+        .h5.text-center Incidencia pobreza monetaria en Colombia 2018 - 2019.
+        p.mt-3 La incidencia o tasa de pobreza monetaria mide el porcentaje de la población pobre respecto al total de la población de un territorio
+        figure.mt-5
           img.img-a(src='@/assets/curso/tema_1/img_12.png', alt='Nota: con base en Datos Encuesta de Calidad de Vida - ECV, 2018-2019 (DANE, 2020).')
           figcaption.mt-2 Nota: DANE (2020). Cálculos con base en la Gran Encuesta Integrada de 
             br 
@@ -178,7 +179,9 @@
           img.img-a(src='@/assets/curso/tema_1/img_35.png')
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p El IPM se ajusta a las características de la pobreza de cada país donde es adoptado, disponiendo para el análisis un grupo de dimensiones cuya capacidad de acceso por parte de los hogares es la que determina cuántas y cuáles privaciones tiene, y por ende su situación de pobreza o no#[sup 5]. Para el caso colombiano, el Conpes 150 de 2012, Metodologías oficiales y arreglos institucionales para la medición de la pobreza en Colombia, reconoce cinco (5) dimensiones:
+            p El IPM se ajusta a las condiciones de cada país, pero no quiere decir que no exista un IPM global publicado por OPHI que compara todos los países con unos indicadores generales.
+            p.mt-3 De igual manera la pobreza monetaria global es medida por el Banco Mundial. 
+            p.mt-3 El IPM se ajusta a las características de la pobreza de cada país donde es adoptado, disponiendo para el análisis un grupo de dimensiones cuya capacidad de acceso por parte de los hogares es la que determina cuántas y cuáles privaciones tiene, y por ende su situación de pobreza o no#[sup 5]. Para el caso colombiano, el Conpes 150 de 2012, Metodologías oficiales y arreglos institucionales para la medición de la pobreza en Colombia, reconoce cinco (5) dimensiones:
 
     .subref.mb-5
       p #[sup 5] “Para el cálculo del IPM se utiliza al hogar como unidad de análisis. Esto quiere decir que las personas al interior de un hogar experimentan simultáneamente las privaciones y no cada persona de forma aislada” (DNP - Conpes, 2012).
@@ -343,8 +346,29 @@
                 .list__item__icon
                   img.img-a(src="@/assets/curso/tema_1/img_24.png").img-fluid
               .list__txt
-                p.m-top Devolución del IVA
+                p.m-top Compensación del IVA
             hr.bd-hr
+            .list
+              .list__item
+                .list__item__icon
+                  img.img-a(src="@/assets/curso/tema_1/img_24.png").img-fluid
+              .list__txt
+                p.m-top Ayudas de emergencia
+            hr.bd-hr
+            .list
+              .list__item
+                .list__item__icon
+                  img.img-a(src="@/assets/curso/tema_1/img_24.png").img-fluid
+              .list__txt
+                p.m-top Ingreso Solidario
+            hr.bd-hr 
+            .list
+              .list__item
+                .list__item__icon
+                  img.img-a(src="@/assets/curso/tema_1/img_24.png").img-fluid
+              .list__txt
+                p.m-top Colombia Mayor
+            hr.bd-hr                                   
           .col-lg-4
             img.img-a(src="@/assets/curso/tema_1/img_26.png").img-fluid
 

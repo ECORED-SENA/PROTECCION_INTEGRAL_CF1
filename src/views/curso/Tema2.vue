@@ -167,7 +167,7 @@
                   figure.card__figure
                       img.img-a(src="@/assets/curso/tema_2/img_11.png").img-fluid
                   .card__copy 
-                    p Busca estimular la asistencia a las escuelas, aumentar los años de escolaridad y reducir la deserción. 
+                    p Busca estimular la asistencia a los colegios, aumentar los años de escolaridad y reducir la deserción. 
           .col-12.col-md-10
             .card-media.color_car
               .card-media__body                 
