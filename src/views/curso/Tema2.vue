@@ -233,7 +233,7 @@
                   figure.card__figure
                       img.img-a(src="@/assets/curso/tema_2/img_20.png").img-fluid
                   .card__copy 
-                    p El incentivo consiste en una transferencia en dinero para familias con niños menores de 6 años con pago bimestral bajo la verificación de la asistencia a estas atenciones integrales, y cuyo valor es diferenciado por grupo de municipio. 
+                    p El incentivo consiste en una transferencia en dinero para familias con niños menores de 6 años que cumplan con las asistencias a las valoraciones integrales en salud. Tendra pago bimestral bajo la verificación de la asistencia a estas atenciones integrales y cuyo valor es diferenciado por grupo de municipio. 
 
     p.mb-3 Una vez verificados los compromisos en materia de salud y educación, el siguiente paso es la liquidación y entrega de incentivos#[sup 9]. El programa define el valor total de los incentivos que se le entregará a cada una de las familias, de acuerdo con las reglas de verificación establecidas y parametrizadas en el sistema de información SIFA, la cual se realizará a través de una transferencia bancaria, siendo esta una estrategia adicional para vincular paulatinamente a los participantes al sistema financiero. 
 
