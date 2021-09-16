@@ -166,9 +166,7 @@
         .col-lg-4.mb-4.mb-lg-0
           img.img-a(src='@/assets/curso/tema_1/img_35.png')
         .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p El IPM se ajusta a las condiciones de cada país, pero no quiere decir que no exista un IPM global publicado por OPHI que compara todos los países con unos indicadores generales.
-            p.mt-3 De igual manera la pobreza monetaria global es medida por el Banco Mundial. 
+          .bloque-texto-a__texto.p-4           
             p.mt-3 El IPM se ajusta a las características de la pobreza de cada país donde es adoptado, disponiendo para el análisis un grupo de dimensiones cuya capacidad de acceso por parte de los hogares es la que determina cuántas y cuáles privaciones tiene, y por ende su situación de pobreza o no#[sup 5]. Para el caso colombiano, el Conpes 150 de 2012, Metodologías oficiales y arreglos institucionales para la medición de la pobreza en Colombia, reconoce cinco (5) dimensiones:
 
     .subref.mb-5
