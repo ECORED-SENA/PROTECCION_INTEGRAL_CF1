@@ -15,16 +15,12 @@
         .col-lg-8
           .bloque-texto-a__texto.p-4
             p No ha sido el mismo a lo largo del tiempo ni en todos los lugares, ya que se ha venido ajustando en la medida en que se ha profundizado su análisis, permitiendo la vinculación de nuevas variables y actores. Su comprensión pasa en muchas ocasiones por las formas con las que se cuenta para su medición, así como los resultados que estos ejercicios puedan arrojar (DPS, 2020), por lo que puede contar con interpretaciones asociadas a las diferentes dinámicas locales. A pesar de ello, es importante destacar la existencia de iniciativas que requieren de la generalización de conceptos, como medio para la unificación de criterios que favorezcan los ejercicios de medición y análisis, así como la posterior formulación de estrategias de mayor alcance, tales como la Organización de Naciones Unidas (ONU), quienes en la Cumbre Mundial sobre Desarrollo Social de 1995 la definieron como:
-
-
     .row.mb-5
       .col-lg-10.mb-5.mb-lg-0
         .bloque-texto-b.p-4.mb-3
           .bloque-texto-b__texto.h3.mb-0 La condición caracterizada por una privación severa de necesidades humanas básicas, incluyendo alimentos, agua potable, instalaciones sanitarias, salud, vivienda, educación e información
           span.mb-3 - (ONU, 1995)
-
     p.mb-5 La siguiente figura describe el desarrollo concepto de pobreza.
-
     .h5.mb-5.text-center Concepto de pobreza
     figure.mb-5
       img.img-a(src='@/assets/curso/tema_1/img_8.png', alt='Texto que describa la imagen')
@@ -38,10 +34,7 @@
               img.img-a(src='@/assets/curso/tema_1/img_31.png', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
             .h4 Años 40
-            p Se centraban en el ingreso como variable de medición. 
-
-        
-          
+            p Se centraban en el ingreso como variable de medición.             
       .py-3.py-md-4(titulo="Décadas 60 y 70")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -49,8 +42,7 @@
               img.img-a(src='@/assets/curso/tema_1/img_32.png', alt='Texto que describa la imagen')
           .col-md-6
             .h4 Décadas de los 60 y 70
-            p Toma fuerza el enfoque de necesidades básicas, el cual empieza a proporcionar una mirada multidimensional al vincular nuevas variables al análisis, lo que resulta de gran utilidad para la formulación e implementación de políticas públicas.
-        
+            p Toma fuerza el enfoque de necesidades básicas, el cual empieza a proporcionar una mirada multidimensional al vincular nuevas variables al análisis, lo que resulta de gran utilidad para la formulación e implementación de políticas públicas.        
       .py-3.py-md-4(titulo="Siglo XX")
         .row
           .col-md-6
@@ -58,8 +50,7 @@
               img.img-a(src='@/assets/curso/tema_1/img_33.png', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
             .h4 Dos últimas décadas del siglo XX
-            p El enfoque de necesidades básicas continúa consolidándose, ampliando sus posibilidades para caracterizar la pobreza con información sobre el desarrollo de las “capacidades” humanas que no se ven reflejadas en el ingreso, lo cual ha permitido en diferentes lugares su oficialización en los marcos normativos, tal como sucedió con el índice de Necesidades Básicas Insatisfechas (NBI), que se extendió en Latinoamérica debido a las contribuciones de la Comisión Económica Para América Latina y el Caribe (CEPAL), (Barzán Ojeda, Quintero Soto, & Hernández Espitia, 2011).
-        
+            p El enfoque de necesidades básicas continúa consolidándose, ampliando sus posibilidades para caracterizar la pobreza con información sobre el desarrollo de las “capacidades” humanas que no se ven reflejadas en el ingreso, lo cual ha permitido en diferentes lugares su oficialización en los marcos normativos, tal como sucedió con el índice de Necesidades Básicas Insatisfechas (NBI), que se extendió en Latinoamérica debido a las contribuciones de la Comisión Económica Para América Latina y el Caribe (CEPAL), (Barzán Ojeda, Quintero Soto, & Hernández Espitia, 2011).   
           
 
       .py-3.py-md-4(titulo="Nuevo milenio")
@@ -74,15 +65,13 @@
 
     p.mb-5 Para conocer mejor la evolución del concepto de pobreza, revisar la siguiente línea de tiempo y analizar cada periodo y sus características más relevantes.
 
-
-
     p.mb-5 En Colombia, con respecto a la medición de la pobreza se ha seguido la clasificación propuesta por Amartya Sen, quien considera que puede hacerse de manera directa e indirecta: 
 
     .row.mb-5
       .col-lg-10.mb-5.mb-lg-0
         .bloque-texto-b.p-4.mb-3
           .bloque-texto-b__texto.h3.mb-0 La medición directa evalúa los resultados de satisfacción (o no privación) que tiene un individuo respecto a características que se consideran vitales como salud, educación, empleo, entre otras. Por la otra, la medición indirecta evalúa la capacidad de adquisición de bienes y servicios que tienen los hogares
-          span.mb-3 - (DANE, 2020)
+          span.mb-3 - (DANE, 2020)          
 
     p.mb-5 En esta línea, el documento Conpes 150 indica que en Colombia se reconocen dos metodologías: una basada en los ingresos monetarios, conocida como pobreza monetaria (indirecta), y otra en las dimensiones estructurales que la determinan (directa), denominada pobreza multidimensional, las cuales no son excluyentes en sí mismas y, por el contrario, en conjunto permiten una comprensión más amplia del fenómeno (DNP - Conpes, 2012). 
 
@@ -136,7 +125,6 @@
       p #[sup 3] “Ingreso per cápita de la unidad de gasto: es el resultado de dividir el ingreso corriente disponible de la unidad de gasto entre el número de personas que conforman la unidad de gasto”. La unidad de gasto “equivale a los miembros del hogar diferentes al servicio doméstico y sus familiares, pensionistas y otros trabajadores dedicados al hogar”. (DANE, 2020).
 
 
-
     p.mb-5 Esto significa que si los ingresos percibidos por el hogar en un determinado período de tiempo son inferiores al costo definido por el umbral, el hogar es considerado como pobre monetario. En el caso de la pobreza monetaria extrema, el límite del umbral está determinado por el valor que representa el ingreso mínimo per cápita necesario para cubrir el costo de una canasta básica de alimentos, que tenga los requerimientos calóricos adecuados (DANE, 2020). 
 
     .cajon--azul.p-4.mb-5
@@ -154,7 +142,7 @@
     .row.align-items-start.mb-5
       .col-lg-6
         .h5.text-center Incidencia pobreza monetaria en Colombia 2018 - 2019.
-        p.mt-3 La incidencia o tasa de pobreza monetaria mide el porcentaje de la población pobre respecto al total de la población de un territorio
+        p.mt-3 La incidencia o tasa de pobreza monetaria mide el porcentaje de la población pobre respecto al total de la población de un territorio.
         figure.mt-5
           img.img-a(src='@/assets/curso/tema_1/img_12.png', alt='Nota: con base en Datos Encuesta de Calidad de Vida - ECV, 2018-2019 (DANE, 2020).')
           figcaption.mt-2 Nota: DANE (2020). Cálculos con base en la Gran Encuesta Integrada de 
@@ -353,14 +341,7 @@
                 .list__item__icon
                   img.img-a(src="@/assets/curso/tema_1/img_24.png").img-fluid
               .list__txt
-                p.m-top Ayudas de emergencia
-            hr.bd-hr
-            .list
-              .list__item
-                .list__item__icon
-                  img.img-a(src="@/assets/curso/tema_1/img_24.png").img-fluid
-              .list__txt
-                p.m-top Ingreso Solidario
+                p.m-top Ayudas de emergencia. Caso 2020: Ingreso Solidario.           
             hr.bd-hr 
             .list
               .list__item
@@ -369,8 +350,8 @@
               .list__txt
                 p.m-top Colombia Mayor
             hr.bd-hr                                   
-          .col-lg-4
-            img.img-a(src="@/assets/curso/tema_1/img_26.png").img-fluid
+          .col-auto
+            img(src="@/assets/curso/tema_1/img_26.png").m-auto
 
       .row(titulo="2. Habilidades para la vida")
         p Enfocada en la apropiación de un conjunto básico de conocimientos por parte de los participantes, que sean el punto de partida para la implementación posterior de las diferentes acciones de inclusión social y productiva necesarias para la superación de la pobreza. Para tal efecto se dispone de iniciativas en materia de:

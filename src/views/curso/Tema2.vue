@@ -113,10 +113,10 @@
 
     .h4.mb-5 El siguiente diagrama determina los cambios que se pueden producir en la población dada la intervención que reciben los beneficiarios. Teoría de cambio.
 
-    .h5.text-center.mb-3 Cambios en población beneficiaria
+    .h5.text-center.mb-5 Cambios en población beneficiaria
 
     figure.mb-5
-      img.img-a(src='@/assets/curso/tema_2/img_6.png', alt='Nota: con base en Datos Encuesta de Calidad de Vida - ECV, 2018-2019 (DANE, 2020).')
+      img.img-a(src='@/assets/curso/tema_2/img_6.svg', alt='Nota: con base en Datos Encuesta de Calidad de Vida - ECV, 2018-2019 (DANE, 2020).')
       figcaption.mt-3 Nota: con base en Prosperidad Social (2020)
 
     p.mb-3 Son participantes del programa aquellas familias/hogares en condiciones de pobreza y pobreza extrema, dentro del contexto de las metodologías vistas anteriormente y focalizadas de acuerdo con cuatro fuentes de información: Sisbén III, Estrategia Red Unidos, Registro único de población víctima y listado censal indígena. Posteriormente se procede a la inscripción, la cual formaliza la vinculación voluntaria de los hogares al programa por medio de la captura de información en el Sistema de Información de Familias en Acción (SIFA) y el establecimiento de los compromisos para el cumplimiento de las corresponsabilidades que garanticen el incentivo económico y su permanencia en el programa.
