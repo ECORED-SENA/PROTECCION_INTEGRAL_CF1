@@ -259,7 +259,7 @@
                 figcaption Fuente: DANE, Encuesta Nacional de Calidad de Vida 2019 - 2020    
 
     .cajon--azul.p-4.mb-5     
-      p La pandemia afectó principalmente dos dimensiones del IPM: i. Infancia y Adolescencia y ii. Empleo. Las privaciones afectadas fueron inasistencia escolar (+ 13.7 p.p.), Desempleo de larga duración (+ 1.8 p.p.), trabajo informal (+ 1.3 p.p.) y rezago escolar (+ 0.1 p.p.).        
+      p La pandemia afectó principalmente dos dimensiones del IPM: i. Infancia y Adolescencia y ii. Empleo. Las privaciones afectadas fueron inasistencia escolar (#[strong + 13.7 p.p.]), Desempleo de larga duración (#[strong + 1.8 p.p.]), trabajo informal (#[strong + 1.3 p.p.]) y rezago escolar (#[strong + 0.1 p.p.]).        
 
     .row.align-items-center.mb-3
       .col-lg-8
