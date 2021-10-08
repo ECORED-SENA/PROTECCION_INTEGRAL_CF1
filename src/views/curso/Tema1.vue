@@ -60,7 +60,7 @@
               img.img-a(src='@/assets/curso/tema_1/img_34.png', alt='Texto que describa la imagen')
           .col-md-6
             .h4 Principios del nuevo milenio
-            p El estudio multidimensional de la pobreza ya se encuentra mucho más arraigado, contando con iniciativas como los Objetivos de Desarrollo del Milenio (ODM), firmada por 189 países, y la presentación del índice de Pobreza Multidimensional (IPM), el cual fue adoptado como metodología de medición de pobreza en varios países.  
+            p El estudio multidimensional de la pobreza ya se encuentra mucho más arraigado, contando con iniciativas como los Objetivos de Desarrollo Sostenible y los Objetivos de Desarrollo del Milenio (ODM), firmada por 189 países, y la presentación del índice de Pobreza Multidimensional (IPM), el cual fue adoptado como metodología de medición de pobreza en varios países.  
 
 
     p.mb-5 Para conocer mejor la evolución del concepto de pobreza, revisar la siguiente línea de tiempo y analizar cada periodo y sus características más relevantes.
@@ -111,13 +111,12 @@
           span.mb-3 - (DANE, 2020)
 
     .row.align-items-center.mb-5
-      .col-lg-8
+      .col-lg
         p.mb-3 Para su comprensión es importante considerar que el ingreso mensual per cápita#[sup 3]  es la cantidad de ingresos que percibe un hogar en este período de tiempo dividido entre el número de sus integrantes, y que la línea de pobreza monetaria es un umbral que determina el nivel de ingresos per cápita mínimo con el cual debe contar un hogar para adquirir una canasta básica de bienes alimentarios y no alimentarios que les garantice su supervivencia e identificar la distancia existente entre los hogares más pobres y el umbral. 
 
         p Para una mejor comprensión revisar el siguiente ejemplo.
-
-      .col-lg-4
-        img.img-a(src="@/assets/curso/tema_1/img_10.png")
+      .col-auto
+        img.img-a(src="@/assets/curso/tema_1/img_10.png", style="width:450px").m-auto
 
     
 
@@ -161,16 +160,22 @@
     p.mb-5 La definición de la pobreza a partir de los ingresos si bien ha sido una herramienta útil para la formulación de políticas públicas, resulta insuficiente para la identificación de la totalidad de factores que intervienen en el fenómeno y la manera en la que lo hacen, por lo que en Colombia se ha trabajado para la adopción de modelos que tengan en consideración otras dimensiones, tomando como fundamento los aportes de Amartya Sen, la Comisión Sarkosy y más recientemente los del Oxford Poverty & Human Development Initiative. Estos últimos propusieron en 2007 el Índice de Pobreza Multidimensional (IPM), el cual entiende que la pobreza en cada hogar o sociedad no se presenta por las mismas razones, por lo que no se puede medir por medio de un mismo parámetro (ingresos), adicionalmente, proporciona una mayor variedad de factores de análisis que permiten la formulación de políticas públicas de mayor alcance (DANE, 2014). 
 
 
-    .bloque-texto-a.p-4.p-md-5.mb-3
+    .bloque-texto-a.p-4.p-md-5.mb-5
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
           img.img-a(src='@/assets/curso/tema_1/img_35.png')
         .col-lg-8
           .bloque-texto-a__texto.p-4           
-            p.mt-3 El IPM se ajusta a las características de la pobreza de cada país donde es adoptado, disponiendo para el análisis un grupo de dimensiones cuya capacidad de acceso por parte de los hogares es la que determina cuántas y cuáles privaciones tiene, y por ende su situación de pobreza o no#[sup 5]. Para el caso colombiano, el Conpes 150 de 2012, Metodologías oficiales y arreglos institucionales para la medición de la pobreza en Colombia, reconoce cinco (5) dimensiones:
+            p.mb-3 El Índice de Pobreza Multidimensional (IPM) es una medida internacional de pobreza que complementa las medidas tradicionales de pobreza basada en ingresos y analiza las privaciones que enfrentan las personas con respecto a la educación, salud y estándares de vida. El IPM global es una medida que cubre más de 100 países y es desarrollada por el Programa de las Naciones Unidas para el Desarrollo (PNUD) y la Iniciativa sobre Pobreza y Desarrollo Humano de Oxford (OPHI).             
+
+
+    //.subref.mb-5
+      p #[sup 5] “Para el cálculo del IPM se utiliza al hogar como unidad de análisis. Esto quiere decir que las personas al interior de un hogar experimentan simultáneamente las privaciones y no cada persona de forma aislada” (DNP - Conpes, 2012).//
+
+    p.mb-4 Adicional al IPM global, el IPM se ajusta a las características de la pobreza de cada país donde es adoptado, disponiendo para el análisis un grupo de dimensiones y privaciones relevantes para el contexto social y económico de cada territorio#[sup 5]. Para el caso colombiano, el CONPES 150 de 2012 metodologías oficiales y arreglos institucionales para la medición de pobreza establece 15 privaciones organizadas en 5 dimensiones: 
 
     .subref.mb-5
-      p #[sup 5] “Para el cálculo del IPM se utiliza al hogar como unidad de análisis. Esto quiere decir que las personas al interior de un hogar experimentan simultáneamente las privaciones y no cada persona de forma aislada” (DNP - Conpes, 2012).
+      p #[sup 5] Para algunos países tener vehículo es un artículo de primera necesidad y hace parte del IPM, en otras sociedades tener internet es vital para la inclusión social y productiva de las personas, en otros la tenencia de animales de traspatio (gallinas, patos, etc) es un mínimo fundamental.
 
     .row.justify-content-center.mb-5
       .col-12.col-md-10
@@ -179,7 +184,7 @@
               figure.card__figure
                   img.img-a(src="@/assets/curso/tema_1/img_14.png").img-fluid
               .card__copy 
-                .h5.mb-3 1. Condiciones educativas del hogar
+                .h5.mb-3 1. Educación
                 p Es medida a través del logro educativo y alfabetización de mayores de 15 años, lo cual sugiere que los hogares tienen retos importantes para educar a los miembros más jóvenes y en algunos casos completar la educación de los mayores.
       .col-12.col-md-10
         .card-media
@@ -187,7 +192,7 @@
               figure.card__figure
                   img.img-a(src="@/assets/curso/tema_1/img_15.png").img-fluid
               .card__copy 
-                .h5.mb-3 2. Condiciones de la niñez y juventud
+                .h5.mb-3 2. Niñez y juventud
                 p La primera infancia contempla la franja poblacional desde la gestación hasta los 5 años. Otras variables como el rezago escolar, la inasistencia escolar y el trabajo infantil, son flagelos que deben enfrentar muchos de los hogares en Colombia. La falta de ingresos hace que los niños, niñas y los jóvenes abandonen el sistema escolar con el objetivo de aportar recursos económicos a sus hogares.
       .col-12.col-md-10
         .card-media
@@ -195,7 +200,7 @@
               figure.card__figure
                   img.img-a(src="@/assets/curso/tema_1/img_16.png").img-fluid
               .card__copy 
-                .h5.mb-3 3. Trabajo
+                .h5.mb-3 3. Empleo
                 p La superación de la pobreza a través de la inclusión social involucra la garantía de un empleo formal y de estabilidad laboral. Estas dos condiciones son aseguradores de un ingreso presente y futuro, que permite condiciones de vida dignas para trabajadores y futuros pensionados.  
       .col-12.col-md-10
         .card-media
@@ -203,7 +208,7 @@
               figure.card__figure
                   img.img-a(src="@/assets/curso/tema_1/img_16.png").img-fluid
               .card__copy 
-                .h5.mb-3 4. Salud y acceso a servicios públicos domiciliarios
+                .h5.mb-3 4. Salud 
                 p El derecho a la salud significa que los Gobiernos deben crear las condiciones que permitan a todas las personas vivir lo más saludablemente posible. El estado de salud individual y colectiva en una sociedad condiciona de manera profunda e inevitable su desarrollo intelectual, económico, productivo y social.
       .col-12.col-md-10
         .card-media
@@ -211,7 +216,7 @@
               figure.card__figure
                   img.img-a(src="@/assets/curso/tema_1/img_17.png").img-fluid
               .card__copy 
-                .h5.mb-3 5. Condiciones de la vivienda
+                .h5.mb-3 5. Vivienda y servicios públicos
                 p Contemplar las condiciones de la vivienda responde a que el acceso a los servicios públicos domiciliarios permite un pleno desarrollo de las actividades del hogar y mejora el bienestar de los individuos (DANE, 2014). 
 
     .h5.text-center.mb-3 Pobreza multidimensional, dimensiones e indicadores.
@@ -227,6 +232,34 @@
         img.img-a(src="@/assets/curso/tema_1/img_20.png")
       .col-lg-8
         p De acuerdo con lo anterior, para el año 2019 se identifica que en Colombia el 17,5 % de hogares se encuentran en situación de pobreza multidimensional, siendo la zona rural dispersa y centros poblados donde mayormente se encuentra concentrada. En materia de dimensiones e indicadores, las privaciones con mayor porcentaje de hogares son trabajo informal (72,9 %), bajo logro educativo (44 %) y rezago escolar (25,8 %). 
+
+    .row
+      .col-lg-12
+        .tarjeta.tarjeta--azul.p-4.mb-5
+          SlyderA               
+            .div
+              figure
+                img(src='@/assets/curso/tema_1/Slide_01.png', alt='Texto que describa la imagen')
+                figcaption Fuente: DANE, Encuesta Nacional de Calidad de Vida 2019 - 2020
+            .div
+              figure
+                img(src='@/assets/curso/tema_1/Slide_02.png', alt='Texto que describa la imagen')
+                figcaption Fuente: DANE, Encuesta Nacional de Calidad de Vida 2019 - 2020
+            .div
+              figure
+                img(src='@/assets/curso/tema_1/Slide_03.png', alt='Texto que describa la imagen')
+                figcaption Fuente: DANE, Encuesta Nacional de Calidad de Vida 2019 - 2020
+            .div
+              figure
+                img(src='@/assets/curso/tema_1/Slide_04.png', alt='Texto que describa la imagen')
+                figcaption Fuente: DANE, Encuesta Nacional de Calidad de Vida 2019 - 2020
+            .div
+              figure
+                img(src='@/assets/curso/tema_1/Slide_05.png', alt='Texto que describa la imagen')
+                figcaption Fuente: DANE, Encuesta Nacional de Calidad de Vida 2019 - 2020    
+
+    .cajon--azul.p-4.mb-5     
+      p La pandemia afectó principalmente dos dimensiones del IPM: i. Infancia y Adolescencia y ii. Empleo. Las privaciones afectadas fueron inasistencia escolar (+ 13.7 p.p.), Desempleo de larga duración (+ 1.8 p.p.), trabajo informal (+ 1.3 p.p.) y rezago escolar (+ 0.1 p.p.).        
 
     .row.align-items-center.mb-3
       .col-lg-8
